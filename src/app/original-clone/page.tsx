@@ -231,6 +231,7 @@ export default function OriginalConejoClonePage() {
                       alt="Counseling in Newbury Park, CA"
                       fill
                       priority
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 35vw"
                       className="object-cover"
                     />
                   </div>
@@ -241,6 +242,7 @@ export default function OriginalConejoClonePage() {
                       src="/images/conejo/hero_arch_2.jpg"
                       alt="Conejo Valley Family Counseling"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>
@@ -261,6 +263,7 @@ export default function OriginalConejoClonePage() {
                     src="/images/conejo/hope_portrait.jpg"
                     alt="Holding onto hope for healing and growth"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 45vw"
                     className="object-cover"
                   />
                 </div>
@@ -305,6 +308,7 @@ export default function OriginalConejoClonePage() {
                     src="/images/conejo/who_adults.jpg"
                     alt="Adults Counseling"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover"
                   />
                 </div>
@@ -325,6 +329,7 @@ export default function OriginalConejoClonePage() {
                     src="/images/conejo/who_couples.jpg"
                     alt="Couples Counseling"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover"
                   />
                 </div>
@@ -345,6 +350,7 @@ export default function OriginalConejoClonePage() {
                     src="/images/conejo/who_teens.jpg"
                     alt="Children & Teens Therapy"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover"
                   />
                 </div>
@@ -368,6 +374,7 @@ export default function OriginalConejoClonePage() {
               src="/images/conejo/quote_banner.png"
               alt="Quote Background"
               fill
+              sizes="100vw"
               className="object-cover opacity-30"
             />
           </div>
@@ -446,6 +453,7 @@ export default function OriginalConejoClonePage() {
                     src="/images/conejo/how_we_work.jpg"
                     alt="Conejo Valley Therapy Team"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 40vw"
                     className="object-cover"
                   />
                 </div>
@@ -461,6 +469,7 @@ export default function OriginalConejoClonePage() {
               src="/images/conejo/honoring_banner.jpg"
               alt="Honoring where you have been"
               fill
+              sizes="100vw"
               className="object-cover opacity-25"
             />
           </div>
@@ -560,6 +569,7 @@ export default function OriginalConejoClonePage() {
                       src="/images/conejo/cta_img_1.jpg"
                       alt="Schedule an appointment"
                       fill
+                      sizes="(max-width: 768px) 100vw, 40vw"
                       className="object-cover"
                     />
                   </div>
@@ -568,6 +578,7 @@ export default function OriginalConejoClonePage() {
                       src="/images/conejo/cta_img_2.jpg"
                       alt="Conejo Valley Family Counseling Office"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>
@@ -623,6 +634,7 @@ export default function OriginalConejoClonePage() {
                   src="/images/conejo/conejo_logo.png"
                   alt="Conejo Valley Family Counseling Logo"
                   fill
+                  sizes="176px"
                   className="object-contain"
                 />
               </div>

@@ -102,6 +102,7 @@ export default function RedesignedMayaPage() {
                       alt="Dr. Maya Reynolds, PsyD - Licensed Clinical Psychologist in Santa Monica"
                       fill
                       priority
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 35vw"
                       className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-60" />
@@ -118,6 +119,7 @@ export default function RedesignedMayaPage() {
                       src="/images/maya/office1.jpeg"
                       alt="Dr. Maya Reynolds Calm Therapy Office Space"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>
@@ -213,6 +215,7 @@ export default function RedesignedMayaPage() {
                     src="/images/maya/maya_anxiety.jpg"
                     alt="Adult feeling calm and relieved from chronic anxiety in therapy"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -239,6 +242,7 @@ export default function RedesignedMayaPage() {
                     src="/images/maya/maya_trauma.jpg"
                     alt="Restoring psychological safety and emotional balance through EMDR trauma recovery"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -265,6 +269,7 @@ export default function RedesignedMayaPage() {
                     src="/images/maya/maya_burnout.jpg"
                     alt="Professional taking a reflective pause from burnout in Santa Monica"
                     fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
                     className="object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -294,6 +299,7 @@ export default function RedesignedMayaPage() {
               src="/images/maya/maya_quote_bg.jpg"
               alt="Serene coastal California horizon background"
               fill
+              sizes="100vw"
               className="object-cover opacity-25"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#1E2421] via-[#1E2421]/90 to-[#1E2421]" />
@@ -394,6 +400,7 @@ export default function RedesignedMayaPage() {
                     src="/images/maya/maya_hero_texture.jpg"
                     alt="Calm, natural light interior representing mindfulness and therapy depth"
                     fill
+                    sizes="(max-width: 1024px) 100vw, 40vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-70" />
@@ -550,6 +557,7 @@ export default function RedesignedMayaPage() {
                       src="/images/maya/office2.jpeg"
                       alt="Private and quiet seating in Santa Monica counseling office"
                       fill
+                      sizes="(max-width: 768px) 100vw, 40vw"
                       className="object-cover"
                     />
                   </div>
@@ -558,6 +566,7 @@ export default function RedesignedMayaPage() {
                       src="/images/maya/maya_cta_calm.jpg"
                       alt="Comfortable setting for emotional healing and self-discovery"
                       fill
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       className="object-cover"
                     />
                   </div>

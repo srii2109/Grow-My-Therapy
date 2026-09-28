@@ -92,6 +92,7 @@ export default function OfficeSection({ onOpenBooking }: OfficeSectionProps) {
                     src="/images/maya/maya_reynolds.png"
                     alt="Dr. Maya Reynolds, PsyD"
                     fill
+                    sizes="36px"
                     className="object-cover"
                   />
                 </div>
