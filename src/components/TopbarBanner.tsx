@@ -7,7 +7,6 @@ import { Sparkles, Copy, Video, CheckCircle2, ArrowRight } from "lucide-react";
 export default function TopbarBanner() {
   const pathname = usePathname();
   const isOriginal = pathname.startsWith("/original-clone");
-  const isWalkthrough = pathname.startsWith("/walkthrough");
 
   return (
     <div className="bg-[#1E2421] text-white text-xs sm:text-sm py-2.5 px-4 sticky top-0 z-50 shadow-md border-b border-[#33423A]">
@@ -26,7 +25,7 @@ export default function TopbarBanner() {
           <Link
             href="/"
             className={`px-3 py-1 rounded-md transition-all font-medium flex items-center gap-1.5 ${
-              !isOriginal && !isWalkthrough
+              !isOriginal
                 ? "bg-[#D98860] text-white shadow-sm"
                 : "bg-[#2D3631] text-[#D8E0DC] hover:bg-[#39453F]"
             }`}
@@ -45,18 +44,6 @@ export default function TopbarBanner() {
           >
             <Copy className="w-3.5 h-3.5" />
             <span>1:1 Original Clone</span>
-          </Link>
-
-          <Link
-            href="/walkthrough"
-            className={`px-3 py-1 rounded-md transition-all font-medium flex items-center gap-1.5 ${
-              isWalkthrough
-                ? "bg-[#4A6B5D] text-white shadow-sm"
-                : "bg-[#2D3631] text-[#D8E0DC] hover:bg-[#39453F]"
-            }`}
-          >
-            <Video className="w-3.5 h-3.5 text-[#D98860]" />
-            <span>Video Walkthrough (5-Min Demo)</span>
           </Link>
         </div>
       </div>
